@@ -45,7 +45,7 @@ def strumming_pattern_generator():
 
 def filter_multiple_mutes(generated_down_strum, generated_pattern, strumming_options):
     """
-    Ensures that only one, and not multiple mute strums are not allowed in the pattern.
+    Ensures that only one and not multiple muted strums are not allowed in the pattern.
 
     Args:
         generated_down_strum (str): The currently generated strum for a down stroke.
@@ -98,7 +98,7 @@ def main(enable_muting=enable_muting):
             if x % 2 == 0:  # down strum
                 weights = [1, 1, 0] if not enable_muting else [1, 1, 0.15]
                 generated_down_strum = random.choices(
-                    #  reduce MUTE probality to either 0% or 10%.
+                    #  reduce MUTE probality to either 0% or 15%.
                     strumming_options["down_strum_options"],
                     weights=weights,
                 )[0]
