@@ -2,7 +2,7 @@
 Python CLI application to randomly generate and display guitar strumming patterns to assist with practice. 
 
 # Example
-!Screenshot2024-05-02 at 4 52 30 PM](https://github.com/jo12no/guitar-strumming-pattern-generator/assets/19522573/0e43e386-5c7e-4361-8983-40b6da8dda01)
+![image](https://github.com/jo12no/guitar-strumming-pattern-generator/assets/19522573/179e56e1-9b5f-4721-9dc2-0722b735c0fc)
 
 ## Features
 
