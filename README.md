@@ -1,4 +1,4 @@
-# guitar-strumming-pattern-generator 🎸🎵
+# Guitar Strumming Pattern Generator 🎸🎵
 Python CLI application to randomly generate and display guitar strumming patterns to assist with practice. 
 
 # Example
